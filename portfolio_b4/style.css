@@ -1,0 +1,73 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: brown;
+
+}
+
+/* Navbar */
+
+.navbar {
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    font-size: 1rem;
+    font-weight: 600;
+    background: rgba(0, 0, 0, 0.5) !importnat;
+}
+
+.navbar-nav li {
+    padding-right: 2rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: orange;
+}
+
+/* Showcase Section */
+
+#home {
+    background: black url(img/slide-img.jpg) no-repeat center center/cover;
+    height: 80vh;
+}
+
+#home .showcase-text {
+    padding-top: 12rem;
+    color: orange;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+}
+
+#home .showcase-text h1 {
+    font-size: 4vw;
+}
+
+#home .showcase-text h4 {
+    font-size: 2vw;
+}
+
+.service {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.service h3 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.service i {
+    color: orange;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* Footer Section */
+
+#footer {
+    padding: .25rem;
+    background-color: dimgray;
+}
